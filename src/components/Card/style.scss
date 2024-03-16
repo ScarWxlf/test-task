@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    .heart-button{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+        top: 5px;
+        right: 5px;
+    }
+    .title{
+        margin: 5px 0px;
+        font-size: 20px;
+    }
+    .desc{
+        margin: 0px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #464646;
+    }
+    .price{
+        margin: 2px 0px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #009e00;
+    }
+}

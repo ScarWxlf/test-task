@@ -1,0 +1,21 @@
+.reviews-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 100%;
+    margin: 130px 0px;
+    .reviews-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+    .reviews{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+}

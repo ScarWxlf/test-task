@@ -1,0 +1,58 @@
+.discount-block{
+    width: 100%;
+    height: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .discount-body{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        hr{
+            width: 100%;
+        }
+        h1{
+            font-size: 40px;
+            font-weight: 700;
+            margin: 50px 0px 0px 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(33, 33, 33);
+        }
+        p{
+            text-align: center;
+            width: 40%;
+            margin: 0px;
+            font-size: 15px;
+            color: rgb(99, 99, 99);
+        }
+        .subscribe{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            gap: 10px;
+            input{
+                width: 300px;
+                height: 33px;
+                padding: 4px 7px;
+                border: black 1px solid;
+                border-radius: 5px;
+            }
+            button{
+                width: 160px;
+                height: 40px;
+                color: white;
+                background-color: #434343;
+                border: none;
+                border-radius: 10px;
+                font-size: 15px;
+                font-weight: 700;
+                cursor: pointer;
+            }
+        }
+    }
+}
